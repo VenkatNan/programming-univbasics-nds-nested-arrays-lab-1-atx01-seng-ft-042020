@@ -41,7 +41,12 @@ def matrix_lookup(matrix, row, column)
  matrix[row][column]
 end
 
+<<<<<<< HEAD
 def matrix_update(matrix,row,column, new_value)
   matrix[row][column] = new_value
   matrix
+=======
+def matrix_update(matrix, row, column, new_value)
+  matrix[row][column]
+>>>>>>> 743d7507bf4147886d87113dff07cef4f5215b70
 end
